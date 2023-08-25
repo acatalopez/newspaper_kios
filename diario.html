@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesD.css">
+</head>
+<body>
+    <div id="diarioContainer">
+        <iframe id="diarioFrame" src="" frameborder="0"></iframe>
+      </div>
+      
+      <div id="botonesDiarios">
+        <button onclick="cambiarDiario(-1)">Anterior</button>
+        <button onclick="cambiarDiario(1)">Siguiente</button>
+      </div>
+      
+      <div id="agregarDiarioContainer">
+        <input type="text" id="nuevoDiarioInput" placeholder="Ingresa el enlace del diario">
+        <button onclick="agregarDiario()">Más</button>
+        <button onclick="mostrarDiarios()">Cancelar</button>
+        <button onclick="aceptarDiarios()">Aceptar</button>
+      </div>
+</body>
+</html>
